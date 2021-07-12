@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+const App = () =>
+    <div
+        id={"app"}
+        style={{
+            display: "flex",
+            justifyContent: "center",
+            height: "100%",
+            alignItems: "center",
+        }}
+    >
+        <div
+            id={"header"}
+            style={{
+                justifyContent: "center",
+                alignItems: "center",
+            }}
         >
-          Learn React
-        </a>
-      </header>
+            <h1 id={"header-title"}>Point to Pointless<span style={{color: "red"}}>.</span></h1>
+            <div
+                id={"header-subheader"}
+                style={{
+                    color: "#505050"
+                }}
+            >
+                Getting from point to point; pointlessly
+            </div>
+        </div>
     </div>
-  );
-}
 
 export default App;
