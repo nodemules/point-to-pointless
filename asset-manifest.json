@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/point-to-pointless/static/css/main.31448a68.chunk.css",
+    "main.js": "/point-to-pointless/static/js/main.91690d5b.chunk.js",
+    "main.js.map": "/point-to-pointless/static/js/main.91690d5b.chunk.js.map",
+    "runtime-main.js": "/point-to-pointless/static/js/runtime-main.0d28bb4a.js",
+    "runtime-main.js.map": "/point-to-pointless/static/js/runtime-main.0d28bb4a.js.map",
+    "static/js/2.8ffcaeff.chunk.js": "/point-to-pointless/static/js/2.8ffcaeff.chunk.js",
+    "static/js/2.8ffcaeff.chunk.js.map": "/point-to-pointless/static/js/2.8ffcaeff.chunk.js.map",
+    "static/js/3.3cae67fe.chunk.js": "/point-to-pointless/static/js/3.3cae67fe.chunk.js",
+    "static/js/3.3cae67fe.chunk.js.map": "/point-to-pointless/static/js/3.3cae67fe.chunk.js.map",
+    "index.html": "/point-to-pointless/index.html",
+    "static/css/main.31448a68.chunk.css.map": "/point-to-pointless/static/css/main.31448a68.chunk.css.map",
+    "static/js/2.8ffcaeff.chunk.js.LICENSE.txt": "/point-to-pointless/static/js/2.8ffcaeff.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d28bb4a.js",
+    "static/js/2.8ffcaeff.chunk.js",
+    "static/css/main.31448a68.chunk.css",
+    "static/js/main.91690d5b.chunk.js"
+  ]
+}
