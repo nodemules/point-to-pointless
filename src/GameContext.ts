@@ -16,7 +16,7 @@ export type Step = {
     requires?: Array<number>,
     required?: boolean,
     text: string,
-    completed?: boolean
+    completed?: Date
 }
 
 export const useGameContext = (): GC => {
@@ -32,7 +32,7 @@ export const useGameContext = (): GC => {
     const complete = (step: Step) => {
         const found = steps.find(it => it.num === step.num)
         if (found) {
-            found.completed = true
+            found.completed = new Date()
             setSteps([...steps])
         }
     }

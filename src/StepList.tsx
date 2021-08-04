@@ -72,6 +72,7 @@ const StepList = () => {
                     {
                         steps
                         .filter(it => it.completed)
+                        .sort((a, b) => a.completed!! < b.completed!! ? -1 : 1)
                         .map(step => <StepListItem key={step.num} step={step}/>)
                     }
                     {
