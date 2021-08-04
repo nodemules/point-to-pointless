@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/point-to-pointless/static/css/main.31448a68.chunk.css",
-    "main.js": "/point-to-pointless/static/js/main.91690d5b.chunk.js",
-    "main.js.map": "/point-to-pointless/static/js/main.91690d5b.chunk.js.map",
-    "runtime-main.js": "/point-to-pointless/static/js/runtime-main.0d28bb4a.js",
-    "runtime-main.js.map": "/point-to-pointless/static/js/runtime-main.0d28bb4a.js.map",
-    "static/js/2.8ffcaeff.chunk.js": "/point-to-pointless/static/js/2.8ffcaeff.chunk.js",
-    "static/js/2.8ffcaeff.chunk.js.map": "/point-to-pointless/static/js/2.8ffcaeff.chunk.js.map",
-    "static/js/3.3cae67fe.chunk.js": "/point-to-pointless/static/js/3.3cae67fe.chunk.js",
-    "static/js/3.3cae67fe.chunk.js.map": "/point-to-pointless/static/js/3.3cae67fe.chunk.js.map",
+    "main.js": "/point-to-pointless/static/js/main.32dd7db7.chunk.js",
+    "main.js.map": "/point-to-pointless/static/js/main.32dd7db7.chunk.js.map",
+    "runtime-main.js": "/point-to-pointless/static/js/runtime-main.7d80dcbb.js",
+    "runtime-main.js.map": "/point-to-pointless/static/js/runtime-main.7d80dcbb.js.map",
+    "static/css/2.20dab88b.chunk.css": "/point-to-pointless/static/css/2.20dab88b.chunk.css",
+    "static/js/2.4bb5b81e.chunk.js": "/point-to-pointless/static/js/2.4bb5b81e.chunk.js",
+    "static/js/2.4bb5b81e.chunk.js.map": "/point-to-pointless/static/js/2.4bb5b81e.chunk.js.map",
+    "static/js/3.591a3043.chunk.js": "/point-to-pointless/static/js/3.591a3043.chunk.js",
+    "static/js/3.591a3043.chunk.js.map": "/point-to-pointless/static/js/3.591a3043.chunk.js.map",
     "index.html": "/point-to-pointless/index.html",
+    "static/css/2.20dab88b.chunk.css.map": "/point-to-pointless/static/css/2.20dab88b.chunk.css.map",
     "static/css/main.31448a68.chunk.css.map": "/point-to-pointless/static/css/main.31448a68.chunk.css.map",
-    "static/js/2.8ffcaeff.chunk.js.LICENSE.txt": "/point-to-pointless/static/js/2.8ffcaeff.chunk.js.LICENSE.txt"
+    "static/js/2.4bb5b81e.chunk.js.LICENSE.txt": "/point-to-pointless/static/js/2.4bb5b81e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0d28bb4a.js",
-    "static/js/2.8ffcaeff.chunk.js",
+    "static/js/runtime-main.7d80dcbb.js",
+    "static/css/2.20dab88b.chunk.css",
+    "static/js/2.4bb5b81e.chunk.js",
     "static/css/main.31448a68.chunk.css",
-    "static/js/main.91690d5b.chunk.js"
+    "static/js/main.32dd7db7.chunk.js"
   ]
 }
