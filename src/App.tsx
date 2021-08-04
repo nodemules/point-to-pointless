@@ -1,32 +1,28 @@
-import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App = () =>
-    <div
-        id={"app"}
-        style={{
-            display: "flex",
-            justifyContent: "center",
-            height: "100%",
-            alignItems: "center",
-        }}
-    >
-        <div
-            id={"header"}
-            style={{
-                justifyContent: "center",
-                alignItems: "center",
-            }}
-        >
-            <h1 id={"header-title"}>Point to Pointless<span style={{color: "red"}}>.</span></h1>
-            <div
-                id={"header-subheader"}
-                style={{
-                    color: "#505050"
-                }}
-            >
-                Getting from point to point; pointlessly
-            </div>
-        </div>
-    </div>
+import React, {useMemo} from "react";
+import CardStack from "./CardStack";
+import GameContext, {useGameContext} from './GameContext';
+import StackContext, {useStack} from "./StackContext";
+import Intro from './Intro';
+import StepList from "./StepList";
+
+const App = () => {
+    const gameContext = useGameContext()
+    const cardStackContext = useStack({first: <Intro/>})
+
+    return (
+        <GameContext.Provider value={useMemo(() => gameContext, [gameContext])}>
+            <StackContext.Provider value={useMemo(() => cardStackContext, [cardStackContext])}>
+                {
+                    gameContext.steps.length ?
+                        <StepList/>
+                        :
+                        <CardStack/>
+                }
+            </StackContext.Provider>
+        </GameContext.Provider>
+    )
+}
 
 export default App;

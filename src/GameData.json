@@ -1,0 +1,74 @@
+{
+  "SH1": [
+    {
+      "num": 0,
+      "text": "This place is like a ghost town."
+    },
+    {
+      "num": 1,
+      "text": "Someday, someone may experience these bizarre events. Hopefully, they will find my notes useful."
+    },
+    {
+      "num": 2,
+      "text": "Have you seen a little girl? Short, black hair? Just turned seven last month?",
+      "required": true
+    },
+    {
+      "num": 3,
+      "text": "In that case, I need to find her now! Cheryl's my little girl. I can't just leave her out there by herself!",
+      "required": true,
+      "dependsOn": [2]
+    },
+    {
+      "num": 4,
+      "text": "Huh? Radio? What's going on with that radio?"
+    },
+    {
+      "num": 5,
+      "text": "Who in the hell was that...?"
+    },
+    {
+      "num": 6,
+      "text": "Was that another dream? Did I pass out again? I don't want to think so, but maybe this is all just going on in my head. I could have had a car accident, and now I'm lying unconscious in a hospital bed... I don't know what's real anymore..."
+    },
+    {
+      "num": 7,
+      "text": "Not again...!? No, this time it feels different. Rather than from reality shifting to a nightmare, this is more like reality becoming a nightmare. I don't like this feeling. Like something bad will happen... No doubt, something terrible is going on."
+    },
+    {
+      "num": 8,
+      "text": "This may sound really off the wall, but listen to me. You've got to believe me. I haven't gone crazy and I'm not fooling around. At first I thought I was losing my mind. But now I know I'm not. It's not me. This whole town. It's being invaded by the Otherworld. By a world of someone's nightmarish delusions come to life... Little by little, the invasion is spreading... Trying to swallow up everything in darkness... I think I'm finally beginning to understand what that lady was talking about."
+    },
+    {
+      "num": 9,
+      "text": "Cheryl is somewhere and she needs my help.",
+      "required": true
+    },
+    {
+      "num": 10,
+      "text": "Cheryl is my daughter. I will save her. No matter what.",
+      "required": true
+    },
+    {
+      "num": 11,
+      "text": "I don't know who you are or what you're trying to do, and I don't care. Just one thing. Let Cheryl go. That's all I ask.",
+      "required": true
+    },
+    {
+      "num": 12,
+      "text": "Dahlia! Where's Cheryl!? What have you done to her!?",
+      "required": true
+    },
+    {
+      "num": 13,
+      "text": "I'm in no mood for jokes."
+    },
+    {
+      "num": 14,
+      "text": "Cheryl...? Can't be? You can't leave like this... This can't be happening! Cheryl!? ...Cheryl!",
+      "required": true
+    }
+  ],
+  "RE1": [],
+  "HG": []
+}
